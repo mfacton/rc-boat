@@ -9,7 +9,7 @@ const int pwmPins[MAX_CHANNELS] = {3, 5, 6, 9, 10};
 Servo servos[MAX_CHANNELS];
 
 const byte nrfAddress[6] = "00001";
-RF24 radio(2, 3); // CE, CSN pins
+RF24 radio(7, 8); // CE, CSN pins
 
 uint8_t data[MAX_CHANNELS];
 
