@@ -6,8 +6,8 @@
 #define LEFT_PROP 1 //left prop inverted
 
 //bottom -> top
-#define LEFT_DEP 2 //73 -> 173
-#define RIGHT_DEP 3 //103 -> 3
+#define LEFT_DEP 2 //173 -> 73
+#define RIGHT_DEP 3 //3 -> 103
 
 const int pwmPins[MAX_CHANNELS] = {3, 5, 6, 9, 10};
 Servo servos[MAX_CHANNELS];
