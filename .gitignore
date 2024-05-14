@@ -4,6 +4,8 @@
 ### STM32 ###
 Debug/
 Drivers/
+Middlewares/
+USB_DEVICE/
 
 ### Linux ###
 *~
