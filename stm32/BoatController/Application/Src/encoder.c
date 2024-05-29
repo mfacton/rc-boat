@@ -17,6 +17,7 @@ void Encoder_Init(void) {
 	}
 }
 
+//if using those standard hand knob encoders
 //best to run timer at 10khz for no skipping
 void Encoder_Handler(void) {
 	for (int e = 0; e < ENCODERS; e++) {
